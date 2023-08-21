@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+#white{
+    height: 2px;
+    color: white;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+#footer{
+    background-image: linear-gradient(to right,rgb(28, 28, 48) 5%,rgb(44, 44, 75) 40%,rgb(101, 101, 123)100%,rgb(79, 79, 151) 2%);
+    padding: 70px 0px;
+}
+#DNDtxt{
+    padding: 80px 160px 0px 80px;
+
+}
+li a{
+    text-decoration: none;
+}
+
+#c1{
+    transform: translateX(260px);
+    color: white;
+}
+#c2{
+    transform: translate(374px,-18.5px);
+}
+#c3{
+    transform: translate(467px,-37.5px);
+}
+#c4{
+    transform: translate(560px,-55.5px);
+}
+
+h5{
+    transform: translate(195px,80px);
+    color: white;
+    font-weight: bold;
+}
+.social-links{
+    transform: translate(195px,95px);
+}
+li{
+    color: white;
+    font-weight: bold;
+}
+
+li a{
+    color: white;
+    font-weight: normal;
+}
+
+#img{
+   transform: translate(-67px,-25px);
+}
+
+#cb{
+    transform: translate(10px,-73px);
+    font-size: 15px;
+}
+
+#DNDtxt{
+    color: white;
+    transform: translate(-246px,-2px);
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#DNDimg{
+    flex-direction: row;
+    height: 24px;
+    width: 24px;
+}
+
+
+
+#img1{
+    transform: translate(-580px,108px);
+
+}
+#img2{
+    transform: translate(-520px,55px);
+}
+#img3{
+    transform: translate(-460px,3px);
+}
+#img4{
+    transform: translate(-400px,-49px);
+}
+#img5{
+    transform: translate(-340px,-101px);
+}
+
+
+.social-links> #i1{
+    margin: 10px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width:24px;
+    height:24px;
+    border-radius:50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+  }
+
+  
+.fa-instagram {
+    background: rgb(171, 11, 94);
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.text li a:hover{
+     color: rgb(32, 30, 30);
+}
+
+hr{
+    transform: translateY(-30px);
+}
